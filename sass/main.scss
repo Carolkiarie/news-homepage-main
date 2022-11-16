@@ -1,0 +1,23 @@
+// custom variables------colors
+
+
+// -----import the functions and variables----
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+// ----custom colors-----
+
+
+$custom-theme-colors:(
+    "softorange": hsl(35, 77%, 62%),
+    "softred": hsl(5, 85%, 63%),
+    "offwhite": hsl(36, 100%, 99%),
+    "grayishblue": hsl(233, 8%, 79%),
+    "darkgrayblue": hsl(236, 13%, 42%),
+    "verydarkblue": hsl(240, 100%, 5%),
+    "altlight": #f2ebfa
+);
+
+// -----merge the function and the variable scss---
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
