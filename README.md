@@ -15,8 +15,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub/responsive-home-page-using-bootstrap-5-dy8muL3xO3
+
+- Live Site URL:https://carolkiarie.github.io/news-homepage-main/
 
 ## My process
 
